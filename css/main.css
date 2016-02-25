@@ -225,7 +225,7 @@
 /* Our Story
    ================================================================ */
 .background {
-  background-image: url("../Images/flowers_blur.jpg");
+  background-image: url("../images/flowers_blur.jpg");
   z-index: 1;
   position: static;
   height: 1200px;
