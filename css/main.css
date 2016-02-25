@@ -75,7 +75,7 @@
 /* Header
    ================================================================ */
 .header {
-  background-image: url("../Images/main_image.jpg");
+  background-image: url("../images/main_image.jpg");
   background-size: 100%;
   position: relative;
   height: 780px;
@@ -225,7 +225,7 @@
 /* Our Story
    ================================================================ */
 .background {
-  background-image: url("../Images/Flowers_Blur.jpg");
+  background-image: url("../Images/flowers_blur.jpg");
   z-index: 1;
   position: static;
   height: 1200px;
