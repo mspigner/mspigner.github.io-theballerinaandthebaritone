@@ -1,0 +1,429 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 1050px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 12px
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 12px
+  }
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* Navigation
+   ================================================================ */
+.nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: rgba(184,185,148,0.6);
+  width: 100%;
+  height: 70px;
+  visibility: hidden;
+  display: none;
+}
+.nav ul {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.nav li {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 20%;
+  margin: 0.5% auto;
+  text-align: center;
+  height: 93px;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.scrolled {
+  visibility: visible;
+  display: block;
+}
+
+
+/* Header
+   ================================================================ */
+.header {
+  background-image: url("../Images/main_image.jpg");
+  background-size: 100%;
+  position: relative;
+  height: 780px;
+  background-repeat: no-repeat;
+}
+.header_copy {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left:1%;
+}
+.header_mobile {
+  visibility: hidden;
+  display: none;
+}
+.hr_mobile {
+  visibility: hidden;
+  display: none;
+  width: 100%;
+  border-bottom: 2px solid #8b0837;
+}
+
+.header_copy h1 {
+  margin:0 70% 0 0;
+  text-align: center;
+}
+
+.header_copy h2, .header_mobile h2 {
+  font-family: 'Maiden Orange', cursive;
+  font-size: 4.2rem;
+  margin: 2% 70% 0 0;
+  text-align: center;
+  color: rgb(144,145,144);
+  font-weight: 100;
+  letter-spacing: 8px;
+}
+
+.articles {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  margin: 0 auto 10%;
+  color: #3C3D3D;
+}
+#ballerina {
+  font-family: 'Cookie', cursive;
+  font-size: 4.8rem;
+  line-height: 3.4rem;
+  color: #8b0837;
+}
+
+#baritone {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #6E8B52;
+}
+
+.date {
+
+}
+
+.header_line {
+  top: 72%;
+  width: 100%;
+  height: 2px;
+  border-bottom: 4px solid #8b0837;
+  visibility: hidden;
+  display: none;
+
+}
+
+
+/* Headings
+   ================================================================ */
+
+.intro {
+  margin: 6% auto;
+}
+
+.intro_img {
+  width: 64%;
+/*  height: 300px;*/
+  margin: 4% auto;
+}
+
+#carlton, #christina {
+  border: 1px solid #8b0837;
+}
+
+#carlton {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#christina {
+  width: 88%;
+  margin: 0 6%;
+}
+
+.bio {
+  width: 45%;
+  float: left;
+}
+
+.intro h1 {
+  font-family: 'Cookie', cursive;
+  line-height: 1rem;
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.intro h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.intro_teen p, .intro_carl p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.intro_teen {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+.intro_carl {
+  margin-right: 3%;
+}
+
+.story {
+  clear: both;
+}
+
+/* Our Story
+   ================================================================ */
+.background {
+  background-image: url("../images/Flowers_Blur.jpg");
+  z-index: 1;
+  position: static;
+  height: 1200px;
+}
+
+.story {
+  z-index: 5;
+  position: absolute;
+  background-color: rgba(139,8,55,0.7);
+  margin-top: 5%;
+  height: 500px;
+}
+.story_text {
+  margin: 7% auto 5% auto;
+}
+.story h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1rem;
+  margin: 0 auto 0 auto;
+  color: white; 
+}
+.story p {
+  margin: 2% 15% 7% 15%;
+  color: white;
+  font-weight: 300;
+}
+
+/* Engagement Video
+   ================================================================ */
+.video {
+  margin: 670px 25% 0% 25%;
+  width: 50%;
+  position: absolute;
+  overflow:hidden;
+/*  z-index:12;*/
+}
+#engagement_video {
+  position:relative;
+  width: 100%;
+}
+.video_copy img {
+  text-align: center;
+  margin:20% 35% 0% 35%;
+  width: 30%;
+  opacity: 0.7;
+
+}
+.video_copy{
+  position: absolute;
+  z-index: 15;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 8px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.video_copy h1 {
+  background-color: rgba(110,139,82,0.5);
+  text-align: center;
+}
+
+
+
+/* Footer
+   ================================================================ */
+.mobile_message {
+  margin: 800px 25% 0% 25%;
+  width: 50%;
+  position: absolute;
+  overflow:hidden;
+  top: 320%;
+}
+
+
+/* Navigation
+   ================================================================ */
+
+
+
+/* Mobile Optimization
+   ================================================================ */
+
+@media only screen and (max-width: 1020px) {
+  .header {
+    height: 630px;
+  }
+  * {
+    font-size: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 870px) {
+  .header {
+    height: 560px;
+  }
+  .video {
+    width: 80%;
+    margin: 580px 10% 0% 10%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .header {
+    height: 520px;
+  }
+  .header_copy {
+    left: 2%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    height: 400px;
+  }
+/*  * {
+    font-size: 14px;
+  }*/
+  .bio {
+    float: none;
+    width: 90%;
+  }
+  .intro_teen {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .intro_carl {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+.header_copy {
+  display: none;
+  visibility: hidden;
+}
+.header_mobile {
+  visibility: visible;
+  display: block;
+  text-align: center;
+  margin: 2rem auto 10rem auto;
+
+}
+.header_mobile h2 {
+  text-align: center;
+  margin: 2% auto;
+}
+.articles {
+  font-size: 1rem;
+}
+.header_line {
+  visibility: visible;
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 750px) {
+ .header_copy {
+  top: 25%;
+
+ }
+}
+@media only screen and (max-width: 620px) {
+ .header {
+  height: 380px;
+ }
+  
+ .header_mobile {
+
+ }
+
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 530px) {
+
+ .header {
+  height: 250px;
+ }
+
+
+ .story h1 {
+  margin: 5rem auto 2rem auto;
+ }
+
+}
+
+
+
