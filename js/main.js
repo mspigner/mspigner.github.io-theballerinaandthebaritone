@@ -19,3 +19,14 @@ $(document).ready(function (){
 		// window.scrollTo(0,0);
 		$('html, body').animate({scrollTop: '0'}, 500);
 });
+
+$('.nav_button').on('click', function(){
+	// event.preventDefault();
+	var matchingDiv = $(this).data('section');
+	console.log(matchingDiv);
+	 $('html, body').animate({scrollTop: $('.' + matchingDiv).offset().top-70}, 1500);
+	// if (matchingDiv === "resume_section") {
+	// 	 $('html, body').animate({scrollTop: $('.' + matchingDiv).offset().top}, 1200);
+ //        // window.scrollTo(0,615)});
+	// }
+});
