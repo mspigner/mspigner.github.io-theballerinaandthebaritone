@@ -129,6 +129,10 @@
   letter-spacing: 8px;
 }
 
+.header h2, .head h2 {
+
+}
+
 .articles {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -139,31 +143,34 @@
 }
 #ballerina {
   font-family: 'Cookie', cursive;
+  font-weight: 100;
   font-size: 4.8rem;
   line-height: 3.4rem;
-  color: #8b0837;
+/*  color: #8b0837;*/
+  color: #FACD1F;
 }
 
 #baritone {
   font-family: 'Oswald', sans-serif;
   font-size: 3.4rem;
   text-transform: uppercase;
-  font-weight: 300;
-  color: #6E8B52;
+  font-weight: 100;
+/*  color: #6E8B52;  */
+  color: #FACD1F;
 }
 
 .date {
-
+ color: #FACD1F;
 }
 
 .header_line {
   top: 72%;
   width: 100%;
   height: 2px;
-  border-bottom: 4px solid #8b0837;
+/*  border-bottom: 4px solid #8b0837;*/
+  border-bottom: 4px solid gray;
   visibility: hidden;
   display: none;
-
 }
 
 
@@ -489,7 +496,14 @@
   height: 250px;
  }
 
+.message_full h1 {
+  font-size: 1.5rem;
+  margin: 0 auto 8% auto;
+}
 
+.header_mobile {
+  margin-bottom: 10%;
+}
  .story h1 {
   margin: 5rem auto 2rem auto;
  }
