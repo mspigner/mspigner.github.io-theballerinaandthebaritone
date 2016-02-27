@@ -385,8 +385,8 @@
   font-weight: 300;
   letter-spacing: 3px;
   width: 100%;
-  margin: 10% auto;
-  font-size: 3rem;
+  margin: 5% auto;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -412,6 +412,9 @@
   .video {
     width: 80%;
     margin: 580px 10% 0% 10%;
+  }
+  .message_full h1 {
+    font-size: 2rem;
   }
 }
 
@@ -498,7 +501,7 @@
 
 .message_full h1 {
   font-size: 1.5rem;
-  margin: 0 auto 8% auto;
+  margin: 0 auto 5% auto;
 }
 
 .header_mobile {
