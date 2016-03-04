@@ -176,9 +176,20 @@
 
 /* Headings
    ================================================================ */
+#about {
+    background-color: rgba(250,205,31,0.4);
+    height: 100%;
+  }
+  #about h1 {
+    line-height: normal;
+    margin-top: 4%;
+    color: gray;
+    padding: 2%;
+
+  }
 
 .intro {
-  margin: 6% auto;
+  margin: 0 auto 6% auto;
 }
 
 .intro_img {
@@ -198,12 +209,14 @@
 
 #christina {
   width: 88%;
+/*  width: 100%;*/
   margin: 0 6%;
 }
 
 .bio {
-  width: 45%;
-  float: left;
+/*  width: 45%;
+  float: left;*/
+  width: 80%;
 }
 
 .intro h1 {
@@ -234,8 +247,10 @@
 }
 
 .intro_teen {
-  margin-right: 3%;
-  margin-left: 3%;
+/*  margin-right: 3%;
+  margin-left: 3%;*/
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .intro_carl {
   margin-right: 3%;
@@ -380,6 +395,9 @@
   text-transform: uppercase;
 }
 
+.message_full {
+  margin-top: 10%;
+}
 .message_full h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
