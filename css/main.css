@@ -806,6 +806,11 @@ html {
 #background_img {
   height: 100%;
 }
+iframe {
+  width: 90%;
+  margin: 0 5%;
+  height: 100%;
+}
 }
 
 
