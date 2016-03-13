@@ -363,6 +363,7 @@ position: relative;
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 0.8rem;
+  line-height: 1.4rem;
   text-align: center;
   opacity: 1;
 }
@@ -811,6 +812,18 @@ iframe {
   margin: 0 5%;
   height: 100%;
 }
+.engagement_img {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .gallery_alt {
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .image_gallery {
+    width: 50%;
+  }
 }
 
 
@@ -820,13 +833,13 @@ iframe {
     font-size: 2.4rem;
   }
   .engagement_img {
-    width: 70%;
-    margin: 0 15%;
+    width: 90%;
+    margin: 0 5%;
   }
   .gallery_alt {
-    width:70%;
-    margin-left:15%;
-    margin-right:15%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
   }
   .image_gallery {
     width: 50%;
@@ -845,6 +858,10 @@ iframe {
   .video_copy h1, .video h1 {
     padding: 6%;
     font-size: 2.1rem;
+  }
+  .intro_teen p, .bio p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
 }
 
