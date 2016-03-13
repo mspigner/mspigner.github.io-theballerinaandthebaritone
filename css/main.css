@@ -803,7 +803,9 @@ html {
   visibility: visible;
   display: block;
 }
-
+#background_img {
+  height: 100%;
+}
 }
 
 
@@ -828,11 +830,15 @@ html {
     width:60%;
     left: 20%;
   }
+  .header_line {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .video_copy h1, .video h1 {
-    padding: 4%;
+    padding: 6%;
     font-size: 3rem;
   }
 }
