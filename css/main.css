@@ -312,11 +312,11 @@ position: relative;
 /*  border: 1px solid #BCBFB8;*/
 }
 
-#dance_img {
+#dance_img, #opera_img {
   width:100%;
   margin: 2% auto;
 }
-#teen_little {
+#teen_little, #carlton_little {
   width: 20%;
   float: left;
   margin: 2% 4% 2% 0;
@@ -337,6 +337,9 @@ position: relative;
 /*  width: 45%;
   float: left;*/
   width: 80%;
+}
+.bio p {
+  text-align: left;
 }
 
 .intro h1 {
@@ -364,7 +367,7 @@ position: relative;
   letter-spacing: 1px;
   font-size: 0.8rem;
   line-height: 1.4rem;
-  text-align: center;
+  text-align: left;
   opacity: 1;
 }
 
@@ -372,15 +375,15 @@ position: relative;
   margin-top: 5%;
 }
 
-.intro_teen {
+.intro_teen, .intro_carl {
 /*  margin-right: 3%;
   margin-left: 3%;*/
   margin-right: 10%;
   margin-left: 10%;
 }
-.intro_carl {
+/*.intro_carl {
   margin-right: 3%;
-}
+}*/
 
 /*.story {
   clear: both;
@@ -725,7 +728,7 @@ button {
     padding: 3%;
     font-size: 2rem;
   }
-  #teen_little {
+  #teen_little, #carlton_little {
     width: 40%;
   }
 }
