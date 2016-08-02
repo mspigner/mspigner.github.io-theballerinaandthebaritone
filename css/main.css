@@ -762,6 +762,26 @@ button {
   transition: all 400ms ease;
 }
 
+
+.things_to_do {
+  background-color: #F5F5F5;
+  height: 100%;
+  width: 100%;
+}
+.things_to_do h1 {
+  padding: 8% 0 2% 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #575757;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.to_do_img {
+  width: 80%;
+  margin: 0 10%;
+}
+
 /* Mobile Optimization
    ================================================================ */
 @media only screen and (max-width: 1170px) {
