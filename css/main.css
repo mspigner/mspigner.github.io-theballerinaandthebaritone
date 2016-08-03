@@ -1144,8 +1144,8 @@ html {
   font-size: 1rem;
 }
 .header_line {
-  visibility: visible;
-  display: block;
+/*  visibility: visible;
+  display: block;*/
 }
 #background_img {
   height: 100%;
