@@ -765,7 +765,7 @@ button {
 
 
 .things_to_do {
-  background-color: #F5F5F5;
+  background-color: #FEFDFF;
   height: 100%;
   width: 100%;
 /*  display: none;
@@ -781,6 +781,16 @@ button {
   letter-spacing: 0.2rem;
   color: gray;
 /*  border-bottom: 1px solid gray;*/
+}
+
+.accomodation_details h1 {
+  padding: 8% 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #575757;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 .thing_to_do h1 {
@@ -813,7 +823,132 @@ button {
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+.accomodation_details {
+  background-color: #F8F8F8;
+  height: 100%;
+  width: 100%;
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 10%;
+  clear: both;
+}
+.resort_text p {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  clear: both;
+}
 
+.resort_images {
+  width: 70%;
+  height: 400px;
+  margin: 0 15%;
+  position: relative;
+  overflow: hidden;
+}
+.resort_carousel {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.resort_text {
+  clear: both;
+/*  position: relative;*/
+}
+
+#image-to-vote-on {
+  width: 100%;
+}
+
+.btn {
+  background-color: #F8F8F8;
+  border: none;
+  width: 10%;
+  height: 100%;
+  float: left;
+  margin: 0 0 4% 0;
+  font-size: 0.8rem;
+  text-transform: lowercase
+}
+.arrows {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin: 0 25%;
+}
+.btn_left {
+  margin-left: 40%;
+}
+.btn_right {
+  margin-right: 40%;
+}
+
+.resort_text span {
+  font-size: 0.7rem;
+  color: gray;
+  font-family: 'Raleway', sans-serif;
+  margin: 2% 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.invitation_title img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.registry_img {
+  position: relative;
+  opacity: 0.8;
+}
+.registry_title h1 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  font-size: 1.5rem;
+  color: #FACD1F;
+  z-index: 1;
+  font-family: 'Cookie', cursive;
+  font-size: 8rem;
+  height: 50%;
+  padding: 0 0;
+  opacity: 1;
+/*  z-index: 45;*/
+/*  border: 1px solid rgba(250,205,31,1);
+*/  line-height: normal;
+  padding: 0;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.registry_title button {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  padding: 1%;
+  width: 30%;
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  z-index: 2;
+}
+.registry_title a {
+  font-size: 1rem;
+}
+.registry_title button:hover {
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  border: 3px solid white;
+
+}
 /* Mobile Optimization
    ================================================================ */
 @media only screen and (max-width: 1170px) {
