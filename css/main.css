@@ -969,6 +969,7 @@ button {
   clear:both;
   height: 1000px;
   width: 100%;
+  display: none;
 }
 
 .contact_form {
