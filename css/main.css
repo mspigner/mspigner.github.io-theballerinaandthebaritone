@@ -959,6 +959,123 @@ button {
   border: 3px solid white;
 
 }
+
+/* REgistry - Modal */
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  clear:both;
+  height: 1000px;
+  width: 100%;
+}
+
+.contact_form {
+  width: 60%;
+  margin: 2% 20%;
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  z-index: 0;
+  top: 10%;
+  border: 1px solid white;
+  padding: 2% 5%;
+  background-color: #F5F4F3;
+  -webkit-box-shadow: 12px 14px 14px -6px rgba(100,100,100,0.8);
+   -moz-box-shadow: 12px 14px 14px -6px rgba(100,100,100,0.8);
+        box-shadow: 12px 14px 14px -6px rgba(100,100,100,0.8);
+}
+.contact_form h2 {
+  font-size: 1rem;
+  color: gray;
+  padding: 5% 0 2% 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  height: 100%;
+  text-align: center;
+}
+
+.contact_form h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  height: 50px;
+  color: #FACD1F;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+}
+.contact_form p:hover {
+  cursor: pointer;
+}
+/*.show_contact_form {
+  visibility: visible;
+  opacity: 1;
+}*/
+form {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 100;
+
+}
+form input {
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 4%;
+  height: 44px;
+  background-color: rgba(255,255,255,0);
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.form_left {
+  float: left;
+  width: 100%;
+}
+/*.form_right {
+  float: right;
+  width: 60%;
+}*/
+/*#form_message {
+
+}*/
+#send {
+  clear:both;
+  width: 40%;
+  margin: 2% 30%;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #5EC3C5;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #5EC3C5;
+  text-transform: uppercase;
+  text-align: center;
+}
+#form_message {
+  width: 100%;
+  height: 150px;
+  color: black;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  background-color: rgba(255,255,255,0);
+  color: black;
+  vertical-align: center;
+}
+
+.hide_modal {
+  display: none;
+  visibility: hidden;
+}
+
 /* Mobile Optimization
    ================================================================ */
 @media only screen and (max-width: 1170px) {

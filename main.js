@@ -165,6 +165,10 @@ function changeImage(){
 }
 
 
+$('#close_modal').on('click', function () {
+	$('.modal').addClass('hide_modal');
+});
+
 
 
 
