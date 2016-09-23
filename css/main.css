@@ -912,6 +912,7 @@ button {
 .registry_img {
   position: relative;
   opacity: 0.8;
+  width: 100%;
 }
 .registry_title h1, .invitation_details h1 {
   position: absolute;
@@ -1024,6 +1025,9 @@ button {
   position: relative;
   overflow: hidden;
  }
+/* .btn {
+  width: 20%;
+ }*/
   .arrows {
   width: 60%;
  }
@@ -1053,6 +1057,9 @@ button {
   position: relative;
   overflow: hidden;
  }
+/*  .btn {
+  width: 20%;
+ }*/
  .arrows {
   width: 80%;
  }
@@ -1199,8 +1206,11 @@ iframe {
     display: none;
     visibility: hidden;
   }
+   .btn {
+  width: 10%;
+ }
    .arrows {
-  width: 100%;
+  width: 90%;
  }
     .invitation_details h1 {
   font-size: 3rem;
