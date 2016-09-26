@@ -969,7 +969,7 @@ button {
   clear:both;
   height: 1000px;
   width: 100%;
-  display: none;
+/*  display: none;*/
 }
 
 .contact_form {
@@ -1006,7 +1006,7 @@ button {
   color: #FACD1F;
   padding: 0;
   margin: 0;
-  text-transform: capitalize;
+  text-transform: none;
   text-align: center;
   width: 100%;
 }
@@ -1075,6 +1075,12 @@ form input {
 .hide_modal {
   display: none;
   visibility: hidden;
+}
+#close_modal {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
 }
 
 /* Mobile Optimization
@@ -1345,6 +1351,22 @@ iframe {
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
+
+  .contact_form h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  height: 50px;
+  color: #FACD1F;
+  padding: 0;
+  margin: 0;
+  text-transform: none;
+  text-align: center;
+  width: 100%;
+}
+.contact_form h2 {
+  padding: 0% 0 8% 0;
+}
 }
 
 @media only screen and (max-width: 530px) {
